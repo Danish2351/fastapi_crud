@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, status
 from pydantic import BaseModel
 #from typing import Optional
 
-app = FastAPI(title = "FastAPI CRUD API", description = "A simple API for managing books.")
+app = FastAPI(title = "FastAPI CRUD API", description = "A simple API for crud operation.")
 
 db={}
 
